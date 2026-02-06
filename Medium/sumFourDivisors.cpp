@@ -9,7 +9,7 @@ public:
             for(int j=2;j<=(nums[i]/2);j++)
              {
                 if(c==5)  break;
-                if(nums[i] % j ==git 0) 
+                if(nums[i] % j ==0) 
                 {
                     sum+= j;
                     c++;
