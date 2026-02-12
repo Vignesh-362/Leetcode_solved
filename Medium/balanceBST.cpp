@@ -1,4 +1,5 @@
-void inorder(TreeNode * root,vector<int>&temp)
+#include<bits/stdc++.h>
+ inorder(TreeNode * root,vector<int>&temp)
 {
     if(!root) return;
     inorder(root->left,temp);
